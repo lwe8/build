@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { compile } from "./src";
+import { compile } from "./lib/index.js";
 
 await compile({
   entry: "./src/index.ts",
